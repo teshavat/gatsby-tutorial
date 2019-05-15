@@ -3,8 +3,16 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+.icon{
+  font-size:3.5rem;
+}
+.title{
+  color:red;
+  font-size: 3.0rem;
+}
 body {
   margin: 0;
+  /* background: green; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

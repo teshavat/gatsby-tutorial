@@ -9,8 +9,15 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
+
 import Header from "./header"
-import "./layout.css"
+import Section from '../components/section/section'
+
+import { createGlobalStyle } from 'styled-components'
+
+//import "./layout.css"
+//import '../sass/layout.scss'
+import './bootstrap.min.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -40,6 +47,8 @@ const Layout = ({ children }) => (
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </footer>
+          <Section />
+          
         </div>
       </>
     )}
