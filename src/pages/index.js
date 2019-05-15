@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import { Button } from '../components/Button'
+//import { Button } from '../components/Button'
 import { FaApple } from 'react-icons/fa'
 //import Section from '../components/section/section'
 import Info from '../components/info'
@@ -26,7 +26,7 @@ const IndexPage = () => (
       <Dude />
     </div>
     <FaApple className="icon" />
-    <Button>i'm styled</Button>
+
     <Link to="/page-2/">Go to page 2</Link>
     <Link to="/products/testing/">Go to testing</Link>
 
